@@ -16,8 +16,9 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-  background-image: url("../img/header-background.jpg"); 
+body
+  //Change the name of img
+  background-image: url("../img/background.jpg"); 
   margin: 0;
 }
 
