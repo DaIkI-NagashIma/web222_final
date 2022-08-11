@@ -16,8 +16,7 @@ html{
   scroll-behavior: smooth;
 }
 
-body
-  //Change the name of img
+body{
   background-image: url("../img/background.jpg"); 
   margin: 0;
 }
