@@ -11,7 +11,7 @@ const errorNodes = document.querySelectorAll(".error");
 
 document.getElementById("contact").style.display ="none";
 
-function clickBtn2(){
+function clickBtn(){
 	const p1 = document.getElementById("contact");
 
 	if(p1.style.display=="block"){
@@ -108,4 +108,3 @@ document.getElementById("question").addEventListener("change", () => {
   });
   
   document.addEventListener("scroll", scrollUp);
-  
