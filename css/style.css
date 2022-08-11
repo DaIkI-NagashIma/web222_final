@@ -1,0 +1,296 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-family: Arial; 
+  font-size: inherit;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url("../img/background.jpg"); 
+  margin: 0;
+}
+
+@media (min-width: 0px) {
+
+  .home{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content:center;
+  } 
+
+  .home_image{
+    height: 480px;
+    width: 309px;
+  }
+
+  .basic_info{
+    display: inline-block;
+    font-size: 24px;
+    background-color: white;
+  }
+
+  .basic_info h2{
+    font-size: 36px;
+  }
+
+  .basic_info th{
+    padding: 15px; 
+  }
+
+  #idLinkedInIcon{
+    background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    color:white;
+    cursor:pointer;
+    display:inline-block;
+    font:bold 35px Arial, Helvetica, sans-serif;
+    height:40px;
+    margin-top:1px;
+    text-align:center;
+    width:40px;
+  }
+
+  #idLinkedInIcon:hover{
+    background-color:#06d;
+  }
+
+  .stickyicon-list a {  
+    display:inline-block;
+    text-align: center;   
+    padding: 10px;   
+    transition: all 0.5s ease;   
+    color: white;   
+    font-size: 20px;
+  }         
+  
+  .stickyicon-list a:hover {   
+    color: #000;   
+  }
+      
+  .facebook {   
+  background: #3b5998;   
+  color: white;  
+  }         
+  .linkedin {   
+  background: #0e76a8;   
+  color: white;   
+  }         
+  .instagram {   
+  background: #9b3f6a;
+  background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		   
+  color: white;   
+  } 
+}
+
+.link{
+  width: 350px;
+  padding: 24px;
+  margin: 24px auto;
+  justify-content:center;
+  background-color: white;
+  align-items: center;
+}
+
+.link h2{
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.link a {
+  padding: 24px;
+  justify-content:center;
+}
+
+.link a:hover {
+  font-weight:bold;
+}
+
+@media (min-width: 100px) {
+  #parent {
+    display: grid;
+    font-size: 24px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #child1 {
+    width: 100%;
+    height: 100%; 
+    max-width: 500px;
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgba(red, green, blue, alpha);
+  }
+
+  #child1 h2{
+    text-align:center;
+  }
+
+  #child1 p{
+    font-size: 20px;
+  }
+
+  #child2 {
+    width: 100%;
+    height: 100%; 
+    max-width: 500px;
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: rgba(red, green, blue, alpha);
+
+  }
+
+  .education h2{
+    text-align: center;
+    /* font-size: 24px; */
+    margin-bottom: 1em;
+  } 
+
+  .education h3{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .child2_sub table{
+    min-width: 400px;
+  }
+
+  .child2_sub th{
+    text-align: right;
+  }
+
+  .child2_sub tr{
+    min-width: 400px;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+#aboutme{
+  width: 100%;
+  height: 100%; 
+  max-width: 1000px;
+  width: 90%;
+  background: white;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgba(red, green, blue, alpha);
+}
+
+#aboutme h2{
+  font-size: 24px;
+} 
+
+#aboutme p{
+  font-size: 20px;
+} 
+
+#contact{
+  width: 100%;
+  height: 100%; 
+  background-color: rgba(red, green, blue, alpha);
+}
+
+#contact h1{
+  font-size: 28px;
+}
+
+
+form{
+  max-width: 550px;
+  width: 90%;
+  background: white;
+  margin: 17vh auto 0 auto;
+  padding: 40px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+}
+
+label{
+  display: block; 
+  margin: 20px 0;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: 1px  solid white;
+  border-color:black;
+}
+
+
+input:focus, textarea:focus {
+  border: 1px solid rgb(255, 0, 106);
+}
+
+textarea::-webkit-scrollbar{
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background-color: brown;
+}
+
+.center{
+  text-align: center;
+}
+
+input[type="submit"]{
+  display: inline-flex;
+  margin-top: 30px;
+  width: 90%;
+  width: 200px;
+  background: linear-gradient(to right, rgb(255,0,106), rgb(255,67,61)) ;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+table {
+  min-width: 300px;
+}
+
+#rate{
+  min-width: 200px;
+}
+
+.error{
+  color: red;
+}
+
+.error-border{
+  border-color: brown;
+}
